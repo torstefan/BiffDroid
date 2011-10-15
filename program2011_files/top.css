@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#header {
+	width: auto;
+}
+#member {
+	float:left;
+	font-size: 11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	height: 50px;
+	width: 150px;
+	padding-left: 21px;
+	text-align:left;
+	margin-top: 90px;
+}
+
+a.login:link {
+color:#EEEEEE;
+text-decoration:none;
+text-align:left;
+font-weight:bold;
+}
+a.login:visited {
+color:#EEEEEE;
+text-decoration:none;
+text-align:left;
+font-weight:bold;
+}
+a.login:hover {
+color:#FFFFFF;
+text-decoration:underline;
+text-align:left;
+font-weight:bold;
+}
+
+
+#lang_search {
+	float: right;
+	width: 150px;
+	text-align:right;
+	height: 60px;
+	margin-top: 73px;
+}
+
+.flag {
+	padding: 0px 27px 7px 0px;
+}
+	
+#submenu {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#dc8300;
+	padding: 10px 10px 10px 10px;
+}
+#submenu_container {
+	float:left;
+	height:32px;
+	width: 900px;
+}
+#submenu_divider {
+	float:left;
+	padding-top: 13px;
+}
+
+
+a.submenu:link {
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#dc8300;
+	font-weight:bold;
+}
+a.submenu:hover {
+	text-decoration: none	;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#e5b200;
+	font-weight:bold;
+}
+a.submenu:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color:#dc8300;
+	font-weight:bold;
+}
+

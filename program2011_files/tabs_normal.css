@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#topmenu_container {
+	width: 970px;
+	height: 149px;
+}
+
+*:first-child+html #topmenu_container { height:193px; }
+.floatleft {
+	float:left;
+}
+
+
+
+#topmenu_tab_ending {
+	float:left;
+}
+#topmenu_tab_divider {
+	float:left;	
+}
+
+
+
+#topmenu_tab_active, #topmenu_tab_passive, #topmenu_tab_pro {
+	width: 146px;
+}
+
+#topmenu_tab_active {
+	float:left;
+	text-align:center;
+	height:24px;
+	line-height: 24px;
+	background-color: #CCCCCC;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_active.gif);
+	background-position:center;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#topmenu_tab_passive {
+	float:left;
+	text-align:center;
+	height:24px;
+	line-height: 24px;
+	background-color: #CCCCCC;
+	background-position:center;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#topmenu_tab_pro {
+	float:left;
+	text-align:center;
+	height:24px;
+	line-height: 24px;
+	background-color: #CCCCCC;
+	background-position:center;
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+a.tabActive:link {
+	color: #EEEEEE;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	font-weight:bold;
+}
+a.tabActive:visited {
+	color: #EEEEEE;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	font-weight:bold;
+}
+a.tabActive:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	font-weight:bold;
+}
+
+
+
+a.tabpassive:link {
+	color: #EEEEEE;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_passive.gif);
+	background-position:center;
+	font-weight:bold;
+}
+a.tabpassive:visited {
+	color: #EEEEEE;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_passive.gif);
+	background-position:center;
+	font-weight:bold;
+}
+a.tabpassive:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_passive_hover.gif);
+	background-position:center;
+	font-weight:bold;
+}
+
+
+a.tabpro:link {
+	color: #EEEEEE;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_pro.gif);
+	background-position:center;
+	font-weight:bold;
+}
+a.tabpro:visited {
+	color: #EEEEEE;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_pro.gif);
+	background-position:center;
+	font-weight:bold;
+}
+a.tabpro:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+	display:inline-block;
+	width: 100%;
+	line-height:24px;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_button_pro_hover.gif);
+	background-position:center;
+	font-weight:bold;
+}
+
