@@ -1,0 +1,825 @@
+/* CSS Document */
+
+/* GENERAL */
+
+body
+{
+	background-color: #ffffff;
+	background-image:url(/system/modules/no.klapp.biff/resources/images/2011/Biff_webtop_2011_vaarNY.jpg);
+    background-repeat:no-repeat;
+	background-position:top center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+
+body, td, th, select, input, textarea, label
+{
+font-family:Arial, Helvetica, sans-serif;
+color: #000000;
+}
+
+label
+{
+}
+
+input
+{
+}
+
+address
+{
+width: 800px; 
+font-style:normal;
+left:50%;
+margin-left: 400px;
+}
+
+table.program td, table.program th
+{
+border-width: 1px;
+border-style: solid;
+border-color: #666666;
+padding: 2px;
+text-align:center;
+}
+
+table.program
+{
+margin-bottom:10px;
+width: 220px
+}
+
+table.program td
+{
+background-color:#666666;
+}
+
+table.program a
+{
+color:#ffffff;
+}
+
+
+.navigation {
+  margin-left: 9px;
+  margin-bottom: 30px;
+  
+}
+
+
+p, h1, h2, h3, h4, h5
+{
+font-weight: normal;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+td, th {font-size:10px;}
+
+h1
+{
+font-family:Arial, Helvetica, sans-serif;
+color: #171717;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: bold;
+}
+
+h2
+{
+font-size: 14px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+h2.minimargbot { margin-bottom:3px; }
+
+h3
+{
+font-size: 14px;
+margin-bottom: 20px;
+margin-top: 15px;
+}
+
+h4
+{
+font-size: 11px;
+}
+
+h5
+{
+}
+
+p, input, textarea,address, li, ul
+{
+font-size: 11px;
+}
+
+
+
+.spacer
+{
+clear:both;
+}
+
+
+.divider
+{
+	font-size: 9px;
+	clear:both;
+	height: 1px;
+	border-width: 1px 0px 0px 0px;
+	border-style: dashed;
+	border-color: #EEEEEE;
+	margin-left:250px;
+	margin-right:15px;
+	margin-top:15px;
+	margin-bottom:5px;
+	width: 685px;
+}
+
+/* MENUS */
+
+
+
+/* LINKS */
+
+a:link, a:active, a:visited, a:hover
+{
+text-decoration: none;
+font-weight: normal;
+color:#dc8300;
+}
+
+A:hover
+{
+text-decoration: none;
+text-shadow: 0px 0px 0px;
+color:#e5b200;
+}
+
+a.icon:link, a.icon:active, a.icon:visited, a.icon:hover {
+	background: url(/system/modules/no.klapp.biff/resources/images/2009/icon_trailer.gif) no-repeat left top;
+	padding-left: 15px;
+}
+ 
+a.icon:link {}
+a.icon:active {}
+a.icon:visited {}
+a.icon:hover {}
+
+
+a.billett:link, a.billett:active, a.billett:visited, a.billett:hover {
+	background: url(/system/modules/no.klapp.biff/resources/images/2009/icon_kjopbill.gif) no-repeat left top;
+	padding-left: 15px;
+}
+ 
+a.billett:link {}
+a.billett:active {}
+a.billett:visited {}
+a.billett:hover {}
+
+
+/* LAYOUT */
+
+#trailer
+{
+background-color:#000000;
+display: none;
+}
+
+.global
+{
+position:relative;
+left: 50%; 
+width: 955px;
+margin-left: -477px;
+}
+
+.globaltop
+{
+position:relative;
+left: 50%; 
+width: 955px;
+margin-left: -485px;
+}
+
+*:first-child+html .globaltop { margin-bottom:54px; }
+
+	 
+#flashcontent
+{
+text-align:center;
+}
+
+.center {text-align: center}
+
+/** .news img {float:left; margin-right: 15px; margin-bottom: 15px;} **/
+
+.imglink {
+border: 2px solid #FFFFFF;
+}
+
+#header
+{
+background-color: #ee0011;
+}
+
+
+.menubg
+{
+background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_topp.png);
+background-position:left top;
+}
+
+.menu
+{
+height: 195px;
+}
+
+.menuitems p
+{
+margin-bottom: 1px;
+}
+
+.menu a:link, .menu a:active, .menu a:visited, .menu a:hover
+{
+text-decoration:none;
+color: #333333;
+}
+
+.menu a:hover
+{
+color: #dddddd;
+}
+
+.dinsidebg
+{
+background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_dinside.png);
+height:30px;
+}
+
+.dinside
+{
+padding-top:8px;}
+
+.dinside p
+{
+color:#999999;
+}
+
+.dinside a:link, .dinside a:active, .dinside a:visited, .dinside a:hover
+{
+text-decoration:none;
+color: #ffffff;
+}
+
+.dinside a:hover
+{
+color: #dddddd;
+}
+
+.innhold {}
+
+.innholdbg
+{
+background-image:url(/system/modules/no.klapp.biff/resources/images/2009/bg_innhold.png);
+height:20px;
+}
+
+.menubg, .dinsidebg, .innholdbg
+{
+background-position:left top;
+width: 100%;
+}
+
+.onecol, .twocol, .threecol, .logoitem, .menuitems, .logosymbol, .search div, .menuactive
+{
+float:left;
+}
+
+.onecol, .twocol, .threecol
+{
+margin-left: 15px;
+}
+
+.onecol
+{
+width: 220px;
+}
+
+.twocol
+{
+width: 455px;
+}
+
+.threecol
+{
+width: 690px;
+overflow: hidden;
+}
+
+.logoitem
+{
+width:127px;;
+height: 91px;
+margin-top:25px;
+margin-left:108px;
+margin-right: 15px;
+margin-bottom: 19px;
+}
+
+.menuitems
+{
+margin-top: 20px;
+width: 100px;
+}
+
+.logosymbol
+{
+}
+
+.omtale
+{
+margin-bottom:15px;
+}
+
+.omtale h1
+{
+margin-bottom:8px;
+}
+
+
+#still {
+margin-bottom:15px;
+}
+
+.menuactive
+{
+margin-top:8px;
+width:130px;
+}
+
+.search
+{
+clear:right;
+}
+
+.lang
+{
+float:right;
+padding-top: 5px;
+padding-right: 15px;
+height: 11px;
+width: 112px;
+margin-bottom: 80px;
+overflow: hidden;
+}
+
+
+
+.no a, .en a, .es a, .fr a, .noselected, .enselected, .esselected, .frselected
+{
+background-image:url(/system/modules/no.klapp.biff/resources/images/2009/flagg.gif);
+width:18px;
+height:11px;
+display: block;
+float:left;
+margin-right: 10px;
+}
+
+
+
+.no a
+{
+background-position: 0px 0px;
+}
+
+.en a
+{
+background-position: -18px 0px;
+}
+
+.es a
+{
+background-position: -36px 0px;
+}
+
+.fr a
+{
+background-position: -54px 0px;
+}
+
+.no a:hover, .noselected
+{
+background-position: 0px -11px;
+}
+
+.en a:hover, .enselected
+{
+background-position: -18px -11px;
+}
+
+.es a:hover, .esselected
+{
+background-position: -36px -11px;
+}
+
+.fr a:hover, .frselected
+{
+background-position: -54px -11px;
+}
+
+
+.messages  {
+  	font-family:Arial, Helvetica, sans-serif;
+  	font-size: 11px;
+  	font-color: black;
+  	padding:7px;
+    /* Mozilla ignores crazy MS image filters, so it will skip the following */
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='/export/system/modules/no.klapp.biff/resources/images/2009/35p_red.png');
+}
+
+  /* IE ignores styles with [attributes], so it will skip the following. */
+ .messages[class] {
+   background-image:url(/system/modules/no.klapp.biff/resources/images/2009/35p_red.png);
+ }
+
+/*.login {
+        position: relative;
+        top: 7px;
+  	font-family:Arial, Helvetica, sans-serif;
+  	font-size: 11px;
+        text-align: left;
+        float: left;
+}*/
+
+.loginfront {
+        position: absolute;
+        left: 50%;
+        width: 120px;
+        margin-left: 320px;
+
+  	font-family:Arial, Helvetica, sans-serif;
+  	font-size: 11px;
+        text-align: right;
+        z-index: 10;
+}
+
+
+	#playlist {
+		border: 1px solid #666666;
+	}
+
+	#playlist thead tr th {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 8pt;
+                font-weight: normal;
+		padding: 3px 8px;
+		border-left: 1px solid #bbb;
+                background-color: #ddd;
+                color: #dc8300;
+ 
+	}
+
+	#playlist tbody tr td {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 8pt;
+		padding: 3px 8px;
+		border-left: 1px solid #D9D9D9;
+	}
+
+	#playlist tbody tr.selected td {
+		background-color: #3d80df;
+		color: #ffffff;
+		font-weight: bold;
+		border-left: 1px solid #346DBE;
+		border-bottom: 1px solid #7DAAEA;
+	}
+
+.onlineform {
+  width: 400px;
+}
+
+.underheading {
+	display:block;
+	background-color:#FFFFFF;
+	color:#bababa;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	padding: 2px 4px 2px 1px;
+	margin-bottom: 3px;
+	border-top:solid 2px #EEEEEE;
+}
+
+.hovedbilde {
+	border: 1px solid #cdcdcd;
+	width: 453px;
+	height: 263px;
+	
+}
+.float {
+	float:left;	
+}
+#hovedbilde {
+	width: 455px;
+	height: 274px;		
+}
+
+.underbilde {
+	border: 1px solid #cdcdcd;
+	width: 214px;
+	height: 119px;
+	
+}
+
+#underbilde {
+	width: 216px;
+	height: 128px;	
+        float: left;
+        margin-right: 12px;
+		padding-bottom:10px;
+}
+
+a.header_top:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #dc8300;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform:uppercase;
+	line-height:30px;
+}
+a.header_top:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #e5b200;	
+	text-decoration: none;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+a.header_top:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #dc8300;	
+	text-decoration: none;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+
+a.header_under:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #dc8300;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.header_under:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #e5b200;	
+	text-decoration: none;
+	font-weight: bold;
+}
+a.header_under:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #dc8300;	
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+.brodtekst {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #414141;	
+
+}
+
+#divider {
+clear: both;
+height: 25px;
+border-width: 2px 0px 0px 0px;
+border-style: solid;
+border-color: #666666;
+top: 30px;
+text-align: center;
+position:relative;
+left: 50%; 
+width: 925px;
+margin-left: -462px;
+font-style:normal;
+font-size: 11px;
+line-height: 14px;
+padding-top: 3px;
+}
+
+a.byline_name:link {
+	text-decoration: none;
+	color: #dc8300;
+	font-weight: bold;
+	
+}
+
+a.byline_name:hover {
+	text-decoration: none;
+	color: #e5b200;
+	font-weight: bold;
+	
+}
+
+a.byline_name:visited {
+	text-decoration: none;
+	color: #dc8300;
+	font-weight: bold;
+	
+}
+
+.ingress
+{
+	font-size: 13px;
+}
+
+.byline
+{
+	font-family: sans-serif;
+	border-bottom-color: #a9a9a9;
+	border-top-color: #bdbdbd;
+	border-right-width: 0px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-left-width: 0px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: block;
+	color: #7d7d7d;
+	font-size: 9px;
+}
+
+.byline2
+{
+	background-color: #5b5b5b;
+	border-right-width: 0px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-top-width: 0px;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display: block;
+	color: #d7d7d7;
+	font-size: 9px;
+}
+
+.nyhetsavsnitt {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.taztepriv {
+	width: 180px;
+	height: 45px;
+	overflow-y: auto;
+	vertical-align: top;
+	border: 1px solid #CCC;
+	background-image: url(/system/modules/no.klapp.biff/resources/images/2009/bg_input.png);
+	background-repeat: repeat-x;
+}
+
+.taztepriv_bt {
+	border: 1px solid #CCC;
+	background-color: #CCC;
+	margin-top: 4px;
+}
+
+
+.kommentar {
+	width: 455px;
+	height: 65px;
+	overflow-y: auto;
+	vertical-align: top;
+	border: 1px solid #CCC;
+	background-image: url(/system/modules/no.klapp.biff/resources/images/2009/bg_input.png);
+	background-repeat: repeat-x;
+}
+
+.kommentar_tittel {
+	width: 455px;
+	vertical-align: top;
+	border: 1px solid #CCC;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+	background-image: url(/system/modules/no.klapp.biff/resources/images/2009/bg_input.png);
+	background-repeat: repeat-x;
+}
+
+
+.kommentar_lang {
+	width: 455px;
+	height: 130px;
+	overflow-y: auto;
+	vertical-align: top;
+	border: 1px solid #CCC;
+	background-image: url(/system/modules/no.klapp.biff/resources/images/2009/bg_input.png);
+	background-repeat: repeat-x;
+}
+
+.kommentar_bt {
+	border: 1px solid #CCC;
+	background-color: #CCC;
+	margin-top: 15px;
+}
+
+#kommentar_top
+{
+	background-color: #5b5b5b;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: block;
+	color: #d7d7d7;
+	font-size: 9px;
+	vertical-align: middle;
+}
+
+.kommentar_text { 
+    border-bottom: 1px solid #CCC;
+    padding: 10px 4px 10px 4px;
+    margin: 0px;
+}
+
+.kommentar_text_admin { 
+    border-bottom: 1px solid #CCC;
+    padding: 10px 4px 10px 4px;
+    background-color: #fcf0f0;
+    margin: 0px;
+}
+
+#search { vertical-align: super; }
+
+
+.peoplesearch
+{
+font-family: Arial, Helvetica, sans-serif;
+color: #000000;
+font-size: 13px;
+clear: both;
+margin-top: 4px;
+}
+
+.privateinfo {
+  color: #666666;
+}
+
+#topmenu_container {
+
+background-position:top center;
+}
+
+#twitter_div ul#twitter_update_list { margin:0 0 0 0px; padding:0; list-style:none; }
+ul#twitter_update_list li { padding:10px 5px 10px 10px; background-image:url(/system/modules/no.klapp.biff/resources/images/2009/twitterpost.gif); background-position:top left; background-repeat:repeat-x; }
+#twitter_div a { font-size:10px; margin-top:5px; margin-left:0px; }
+
+.dirbios { background:url(/system/modules/no.klapp.biff/resources/images/2009/dir_bg.png) repeat-y; margin-bottom:8px; display:block; }
+.dirbios h4 { float:left; margin:5px 0 5px 8px; font-size:12px; }
+
+
+
+ul.program { float:left; width:690px; margin:0; padding:0; }
+ul.program, ul.program li{margin:0;padding:0;} ul.program img{border:0;}ul.program li{list-style:none;}
+ul.program li h5 { margin:0 0 4px 0; }
+ul.program li { float:left; width:210px; margin:0 20px 20px 0; padding:0; position:relative; overflow:hidden; display:none; }
+ul.program li a { display:block; color:#fff;  font:bold 12px Arial, Helvetica, sans-serif; text-transform:uppercase; }
+ul.program li a:hover { text-decoration:none; }
+ul.program li img { display:block; }
+ul.program li p { font-size:10px; line-height:12px; }
+.info-slide { position:absolute; bottom:0; background:url('/system/modules/no.klapp.biff/resources/images/transbg.png') repeat; width:200px; height:42px; color:#fff; padding:5px; font-size:12px; text-transform:uppercase; }
+ul.program .hidden { bottom:-27px; }
+/*filtrering*/
+#filter { float:left; width:690px; font:14px Arial, Helvetica, sans-serif; color:#000; margin:0 0 20px 0; }
+#filtercinemas, #filtercategories, #filterdates { width:208px; background:#fff url('/system/modules/no.klapp.biff/resources/images/pointer.png') top right no-repeat; position:relative; z-index:999; float:left; margin:0 20px 0 0; padding:0; border:1px solid #999; }
+#filtercinemas h5, #filtercategories h5, #filterdates h5 { color:#000; font:bold 14px Arial, Helvetica, sans-serif; padding:8px 10px 6px 10px; margin:0; cursor:pointer; text-transform:none; }
+.options { position:absolute; top:30px; left:-1px; background:#fff; width:208px; border:1px solid #999; display:none; }
+#filtercinemas .options, #filtercategories .options, #filterdates .options { overflow-y:auto; overflow-x:hidden; height:240px; }
+#filtercinemas a, #filtercategories a, #filterdates a { display:block; padding:6px 10px; color:#333; font-size:12px; }
+#filtercinemas a:hover, #filtercategories a:hover, #filterdates a:hover { background:#eaeaea; text-decoration:none; } 
+#filter .active { background:#e1e1e1; }
